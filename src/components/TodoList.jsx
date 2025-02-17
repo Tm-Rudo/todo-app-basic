@@ -3,9 +3,7 @@ import React, { useEffect, useState } from "react";
 const TodoList = () => {
   const [lists, setLists] = useState(() => {
     const savedTodos = localStorage.getItem("todos");
-    return savedTodos
-      ? JSON.parse(savedTodos)
-      : [{ name: "ngủ" }, { name: "đi làm" }, { name: "đi học" }];
+    return savedTodos ? JSON.parse(savedTodos) : [];
   });
 
   useEffect(() => {
