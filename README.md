@@ -1,2 +1,3 @@
-Link demo: [link](http://todo-app-basic-five.vercel.app)
-Todo app với chức năng thêm, xoá
+Todo app với chức năng thêm, xoá <br/>
+Link demo: [link](todo-app-basic-five.vercel.app)
+
