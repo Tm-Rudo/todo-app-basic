@@ -50,7 +50,7 @@ const TodoList = () => {
           className="rounded-md border w-[300px] pl-2"
         />
         <button
-          className="w-24 h-10 bg-blue-400 rounded-md border"
+          className="w-24 h-10 bg-blue-400 rounded-md border font-bold text-gray-950"
           onClick={handleAdd}
         >
           {" "}
